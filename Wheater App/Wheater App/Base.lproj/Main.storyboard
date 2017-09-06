@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Wheater_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Gg5-nF-XbX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's The weather?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNz-hb-z4L">
+                                <rect key="frame" x="51" y="43" width="273" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your city:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqE-i3-tsb">
+                                <rect key="frame" x="130" y="98" width="115.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FmP-oK-cnv">
+                                <rect key="frame" x="16" y="156" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIk-F2-0Ip">
+                                <rect key="frame" x="163" y="202" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C4s-45-Hc3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icg-ow-BzP">
+                                <rect key="frame" x="16" y="251" width="343" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FmP-oK-cnv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0h9-u6-TUz"/>
+                            <constraint firstItem="FmP-oK-cnv" firstAttribute="top" secondItem="fqE-i3-tsb" secondAttribute="bottom" constant="37" id="1QG-rs-oek"/>
+                            <constraint firstItem="Gg5-nF-XbX" firstAttribute="top" secondItem="xNz-hb-z4L" secondAttribute="bottom" constant="-79" id="1Wq-T9-qsQ"/>
+                            <constraint firstItem="FmP-oK-cnv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1zi-0a-EXe"/>
+                            <constraint firstItem="dIk-F2-0Ip" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8yq-aW-H1v"/>
+                            <constraint firstItem="Gg5-nF-XbX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DW0-aD-xPZ"/>
+                            <constraint firstItem="dIk-F2-0Ip" firstAttribute="top" secondItem="FmP-oK-cnv" secondAttribute="bottom" constant="16" id="FPC-Ru-f8n"/>
+                            <constraint firstItem="Gg5-nF-XbX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ILG-wF-deV"/>
+                            <constraint firstItem="xNz-hb-z4L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JK9-BS-9QK"/>
+                            <constraint firstItem="Gg5-nF-XbX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Jl0-77-aT7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FmP-oK-cnv" secondAttribute="trailing" constant="16" id="K0M-CX-xZD"/>
+                            <constraint firstItem="Gg5-nF-XbX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XmP-Zp-qBq"/>
+                            <constraint firstItem="fqE-i3-tsb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iII-9M-qQm"/>
+                            <constraint firstItem="dIk-F2-0Ip" firstAttribute="top" secondItem="FmP-oK-cnv" secondAttribute="bottom" constant="16" id="xVl-k7-H6f"/>
+                            <constraint firstItem="fqE-i3-tsb" firstAttribute="top" secondItem="xNz-hb-z4L" secondAttribute="bottom" constant="19" id="y1W-fn-bHF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="icg-ow-BzP" id="PUc-I3-Ueq"/>
+                        <outlet property="textField" destination="FmP-oK-cnv" id="aRw-jm-0nX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.jpg" width="2448" height="2448"/>
+    </resources>
+</document>

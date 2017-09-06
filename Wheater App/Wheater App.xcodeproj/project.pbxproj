@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335BFB631F5F7DA20073DED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BFB621F5F7DA20073DED2 /* AppDelegate.swift */; };
+		335BFB651F5F7DA20073DED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BFB641F5F7DA20073DED2 /* ViewController.swift */; };
+		335BFB681F5F7DA20073DED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335BFB661F5F7DA20073DED2 /* Main.storyboard */; };
+		335BFB6A1F5F7DA20073DED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335BFB691F5F7DA20073DED2 /* Assets.xcassets */; };
+		335BFB6D1F5F7DA20073DED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335BFB6B1F5F7DA20073DED2 /* LaunchScreen.storyboard */; };
+		335BFB781F5F7DA20073DED2 /* Wheater_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BFB771F5F7DA20073DED2 /* Wheater_AppTests.swift */; };
+		335BFB831F5F7DA20073DED2 /* Wheater_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BFB821F5F7DA20073DED2 /* Wheater_AppUITests.swift */; };
+		335BFB921F5F8AA20073DED2 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 335BFB911F5F8A280073DED2 /* background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335BFB741F5F7DA20073DED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335BFB571F5F7DA20073DED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335BFB5E1F5F7DA20073DED2;
+			remoteInfo = "Wheater App";
+		};
+		335BFB7F1F5F7DA20073DED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335BFB571F5F7DA20073DED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335BFB5E1F5F7DA20073DED2;
+			remoteInfo = "Wheater App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		335BFB5F1F5F7DA20073DED2 /* Wheater App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheater App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		335BFB621F5F7DA20073DED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		335BFB641F5F7DA20073DED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		335BFB671F5F7DA20073DED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335BFB691F5F7DA20073DED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335BFB6C1F5F7DA20073DED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		335BFB6E1F5F7DA20073DED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335BFB731F5F7DA20073DED2 /* Wheater AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheater AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		335BFB771F5F7DA20073DED2 /* Wheater_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheater_AppTests.swift; sourceTree = "<group>"; };
+		335BFB791F5F7DA20073DED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335BFB7E1F5F7DA20073DED2 /* Wheater AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheater AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		335BFB821F5F7DA20073DED2 /* Wheater_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheater_AppUITests.swift; sourceTree = "<group>"; };
+		335BFB841F5F7DA20073DED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335BFB911F5F8A280073DED2 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335BFB5C1F5F7DA20073DED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335BFB701F5F7DA20073DED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335BFB7B1F5F7DA20073DED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335BFB561F5F7DA20073DED2 = {
+			isa = PBXGroup;
+			children = (
+				335BFB611F5F7DA20073DED2 /* Wheater App */,
+				335BFB761F5F7DA20073DED2 /* Wheater AppTests */,
+				335BFB811F5F7DA20073DED2 /* Wheater AppUITests */,
+				335BFB601F5F7DA20073DED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335BFB601F5F7DA20073DED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335BFB5F1F5F7DA20073DED2 /* Wheater App.app */,
+				335BFB731F5F7DA20073DED2 /* Wheater AppTests.xctest */,
+				335BFB7E1F5F7DA20073DED2 /* Wheater AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335BFB611F5F7DA20073DED2 /* Wheater App */ = {
+			isa = PBXGroup;
+			children = (
+				335BFB911F5F8A280073DED2 /* background.jpg */,
+				335BFB621F5F7DA20073DED2 /* AppDelegate.swift */,
+				335BFB641F5F7DA20073DED2 /* ViewController.swift */,
+				335BFB661F5F7DA20073DED2 /* Main.storyboard */,
+				335BFB691F5F7DA20073DED2 /* Assets.xcassets */,
+				335BFB6B1F5F7DA20073DED2 /* LaunchScreen.storyboard */,
+				335BFB6E1F5F7DA20073DED2 /* Info.plist */,
+			);
+			path = "Wheater App";
+			sourceTree = "<group>";
+		};
+		335BFB761F5F7DA20073DED2 /* Wheater AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				335BFB771F5F7DA20073DED2 /* Wheater_AppTests.swift */,
+				335BFB791F5F7DA20073DED2 /* Info.plist */,
+			);
+			path = "Wheater AppTests";
+			sourceTree = "<group>";
+		};
+		335BFB811F5F7DA20073DED2 /* Wheater AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				335BFB821F5F7DA20073DED2 /* Wheater_AppUITests.swift */,
+				335BFB841F5F7DA20073DED2 /* Info.plist */,
+			);
+			path = "Wheater AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335BFB5E1F5F7DA20073DED2 /* Wheater App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335BFB871F5F7DA20073DED2 /* Build configuration list for PBXNativeTarget "Wheater App" */;
+			buildPhases = (
+				335BFB5B1F5F7DA20073DED2 /* Sources */,
+				335BFB5C1F5F7DA20073DED2 /* Frameworks */,
+				335BFB5D1F5F7DA20073DED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wheater App";
+			productName = "Wheater App";
+			productReference = 335BFB5F1F5F7DA20073DED2 /* Wheater App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		335BFB721F5F7DA20073DED2 /* Wheater AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335BFB8A1F5F7DA20073DED2 /* Build configuration list for PBXNativeTarget "Wheater AppTests" */;
+			buildPhases = (
+				335BFB6F1F5F7DA20073DED2 /* Sources */,
+				335BFB701F5F7DA20073DED2 /* Frameworks */,
+				335BFB711F5F7DA20073DED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335BFB751F5F7DA20073DED2 /* PBXTargetDependency */,
+			);
+			name = "Wheater AppTests";
+			productName = "Wheater AppTests";
+			productReference = 335BFB731F5F7DA20073DED2 /* Wheater AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		335BFB7D1F5F7DA20073DED2 /* Wheater AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335BFB8D1F5F7DA20073DED2 /* Build configuration list for PBXNativeTarget "Wheater AppUITests" */;
+			buildPhases = (
+				335BFB7A1F5F7DA20073DED2 /* Sources */,
+				335BFB7B1F5F7DA20073DED2 /* Frameworks */,
+				335BFB7C1F5F7DA20073DED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335BFB801F5F7DA20073DED2 /* PBXTargetDependency */,
+			);
+			name = "Wheater AppUITests";
+			productName = "Wheater AppUITests";
+			productReference = 335BFB7E1F5F7DA20073DED2 /* Wheater AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335BFB571F5F7DA20073DED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Claudio Tezzin";
+				TargetAttributes = {
+					335BFB5E1F5F7DA20073DED2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					335BFB721F5F7DA20073DED2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 335BFB5E1F5F7DA20073DED2;
+					};
+					335BFB7D1F5F7DA20073DED2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 335BFB5E1F5F7DA20073DED2;
+					};
+				};
+			};
+			buildConfigurationList = 335BFB5A1F5F7DA20073DED2 /* Build configuration list for PBXProject "Wheater App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335BFB561F5F7DA20073DED2;
+			productRefGroup = 335BFB601F5F7DA20073DED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335BFB5E1F5F7DA20073DED2 /* Wheater App */,
+				335BFB721F5F7DA20073DED2 /* Wheater AppTests */,
+				335BFB7D1F5F7DA20073DED2 /* Wheater AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335BFB5D1F5F7DA20073DED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335BFB6D1F5F7DA20073DED2 /* LaunchScreen.storyboard in Resources */,
+				335BFB921F5F8AA20073DED2 /* background.jpg in Resources */,
+				335BFB6A1F5F7DA20073DED2 /* Assets.xcassets in Resources */,
+				335BFB681F5F7DA20073DED2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335BFB711F5F7DA20073DED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335BFB7C1F5F7DA20073DED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335BFB5B1F5F7DA20073DED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335BFB651F5F7DA20073DED2 /* ViewController.swift in Sources */,
+				335BFB631F5F7DA20073DED2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335BFB6F1F5F7DA20073DED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335BFB781F5F7DA20073DED2 /* Wheater_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335BFB7A1F5F7DA20073DED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335BFB831F5F7DA20073DED2 /* Wheater_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		335BFB751F5F7DA20073DED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335BFB5E1F5F7DA20073DED2 /* Wheater App */;
+			targetProxy = 335BFB741F5F7DA20073DED2 /* PBXContainerItemProxy */;
+		};
+		335BFB801F5F7DA20073DED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335BFB5E1F5F7DA20073DED2 /* Wheater App */;
+			targetProxy = 335BFB7F1F5F7DA20073DED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		335BFB661F5F7DA20073DED2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335BFB671F5F7DA20073DED2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		335BFB6B1F5F7DA20073DED2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335BFB6C1F5F7DA20073DED2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335BFB851F5F7DA20073DED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		335BFB861F5F7DA20073DED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335BFB881F5F7DA20073DED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D6FXT6EG4;
+				INFOPLIST_FILE = "Wheater App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tezzin.Wheater-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		335BFB891F5F7DA20073DED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D6FXT6EG4;
+				INFOPLIST_FILE = "Wheater App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tezzin.Wheater-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		335BFB8B1F5F7DA20073DED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D6FXT6EG4;
+				INFOPLIST_FILE = "Wheater AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tezzin.Wheater-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheater App.app/Wheater App";
+			};
+			name = Debug;
+		};
+		335BFB8C1F5F7DA20073DED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D6FXT6EG4;
+				INFOPLIST_FILE = "Wheater AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tezzin.Wheater-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheater App.app/Wheater App";
+			};
+			name = Release;
+		};
+		335BFB8E1F5F7DA20073DED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D6FXT6EG4;
+				INFOPLIST_FILE = "Wheater AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tezzin.Wheater-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wheater App";
+			};
+			name = Debug;
+		};
+		335BFB8F1F5F7DA20073DED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D6FXT6EG4;
+				INFOPLIST_FILE = "Wheater AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tezzin.Wheater-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wheater App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335BFB5A1F5F7DA20073DED2 /* Build configuration list for PBXProject "Wheater App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335BFB851F5F7DA20073DED2 /* Debug */,
+				335BFB861F5F7DA20073DED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335BFB871F5F7DA20073DED2 /* Build configuration list for PBXNativeTarget "Wheater App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335BFB881F5F7DA20073DED2 /* Debug */,
+				335BFB891F5F7DA20073DED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335BFB8A1F5F7DA20073DED2 /* Build configuration list for PBXNativeTarget "Wheater AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335BFB8B1F5F7DA20073DED2 /* Debug */,
+				335BFB8C1F5F7DA20073DED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335BFB8D1F5F7DA20073DED2 /* Build configuration list for PBXNativeTarget "Wheater AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335BFB8E1F5F7DA20073DED2 /* Debug */,
+				335BFB8F1F5F7DA20073DED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335BFB571F5F7DA20073DED2 /* Project object */;
+}
