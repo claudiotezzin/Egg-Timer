@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CourierNew.ttf">
+            <string>CourierNewPSMT</string>
+        </array>
+        <array key="CourierNewBold.ttf">
+            <string>CourierNewPS-BoldMT</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Location_Aware" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Aware" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbq-6Y-rkz">
+                                <rect key="frame" x="95" y="20" width="185" height="25"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Latitude:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6q-nM-JGk">
+                                <rect key="frame" x="16" y="77" width="132" height="20"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Longitude:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzq-fG-H6I">
+                                <rect key="frame" x="16" y="106" width="132" height="20"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Course:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhf-ZS-noL">
+                                <rect key="frame" x="16" y="165" width="132" height="20"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Speed:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1c-80-WXD">
+                                <rect key="frame" x="16" y="194" width="132" height="20"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Altitude:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcR-ho-liU">
+                                <rect key="frame" x="16" y="250" width="132" height="20"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nearest address:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVu-xS-dVw">
+                                <rect key="frame" x="105.5" y="313" width="164" height="20"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5G-pb-AwJ">
+                                <rect key="frame" x="16" y="362" width="343" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="kM6-0v-iOU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTZ-iv-m7G">
+                                <rect key="frame" x="167" y="77" width="192" height="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVg-xW-adw">
+                                <rect key="frame" x="167" y="106" width="192" height="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bys-Z8-WSg">
+                                <rect key="frame" x="167" y="165" width="192" height="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78F-5M-8Mf">
+                                <rect key="frame" x="167" y="194" width="192" height="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjL-aE-gWr">
+                                <rect key="frame" x="167" y="250" width="192" height="21"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zhf-ZS-noL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="371-t5-SdP"/>
+                            <constraint firstItem="Lbq-6Y-rkz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="56w-bO-zXy"/>
+                            <constraint firstItem="BcR-ho-liU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6tO-kT-sGe"/>
+                            <constraint firstItem="EjL-aE-gWr" firstAttribute="leading" secondItem="BcR-ho-liU" secondAttribute="trailing" constant="19" id="9Mr-Hn-1PO"/>
+                            <constraint firstItem="LVu-xS-dVw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BMk-Zd-2Ab"/>
+                            <constraint firstItem="78F-5M-8Mf" firstAttribute="top" secondItem="bys-Z8-WSg" secondAttribute="bottom" constant="8" id="BQ6-Q4-uNp"/>
+                            <constraint firstItem="LVu-xS-dVw" firstAttribute="top" secondItem="BcR-ho-liU" secondAttribute="bottom" constant="43" id="BRH-uk-o58"/>
+                            <constraint firstItem="rTZ-iv-m7G" firstAttribute="top" secondItem="Lbq-6Y-rkz" secondAttribute="bottom" constant="32" id="G1d-Vc-NjG"/>
+                            <constraint firstItem="B5G-pb-AwJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="HG2-zz-i82"/>
+                            <constraint firstItem="EjL-aE-gWr" firstAttribute="top" secondItem="78F-5M-8Mf" secondAttribute="bottom" constant="35" id="JCZ-ZL-H13"/>
+                            <constraint firstItem="BcR-ho-liU" firstAttribute="top" secondItem="R1c-80-WXD" secondAttribute="bottom" constant="36" id="MR0-La-zzy"/>
+                            <constraint firstItem="bzq-fG-H6I" firstAttribute="top" secondItem="Z6q-nM-JGk" secondAttribute="bottom" constant="9" id="ShB-Hn-IdU"/>
+                            <constraint firstItem="PVg-xW-adw" firstAttribute="top" secondItem="rTZ-iv-m7G" secondAttribute="bottom" constant="8" id="U0t-gw-RPd"/>
+                            <constraint firstItem="bys-Z8-WSg" firstAttribute="top" secondItem="PVg-xW-adw" secondAttribute="bottom" constant="38" id="UFk-JZ-WBM"/>
+                            <constraint firstItem="bzq-fG-H6I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UPE-3v-W0q"/>
+                            <constraint firstItem="B5G-pb-AwJ" firstAttribute="top" secondItem="LVu-xS-dVw" secondAttribute="bottom" constant="29" id="VOF-jI-Fhr"/>
+                            <constraint firstItem="PVg-xW-adw" firstAttribute="leading" secondItem="bzq-fG-H6I" secondAttribute="trailing" constant="19" id="XAB-Lk-SG3"/>
+                            <constraint firstItem="R1c-80-WXD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="avC-e6-Vxe"/>
+                            <constraint firstItem="78F-5M-8Mf" firstAttribute="leading" secondItem="R1c-80-WXD" secondAttribute="trailing" constant="19" id="eeD-OB-hdR"/>
+                            <constraint firstItem="Z6q-nM-JGk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fvS-dm-g5x"/>
+                            <constraint firstItem="R1c-80-WXD" firstAttribute="top" secondItem="zhf-ZS-noL" secondAttribute="bottom" constant="9" id="fyd-Hm-SjI"/>
+                            <constraint firstItem="Z6q-nM-JGk" firstAttribute="top" secondItem="Lbq-6Y-rkz" secondAttribute="bottom" constant="32" id="hJJ-Rm-YNa"/>
+                            <constraint firstItem="Lbq-6Y-rkz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pIW-Rz-jqh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B5G-pb-AwJ" secondAttribute="trailing" constant="16" id="rN0-ZB-MB6"/>
+                            <constraint firstItem="zhf-ZS-noL" firstAttribute="top" secondItem="bzq-fG-H6I" secondAttribute="bottom" constant="39" id="tWQ-Ue-gus"/>
+                            <constraint firstItem="rTZ-iv-m7G" firstAttribute="leading" secondItem="Z6q-nM-JGk" secondAttribute="trailing" constant="19" id="wap-iV-2kY"/>
+                            <constraint firstItem="bys-Z8-WSg" firstAttribute="leading" secondItem="zhf-ZS-noL" secondAttribute="trailing" constant="19" id="zdT-R0-rqN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="address" destination="B5G-pb-AwJ" id="Ig1-LW-nAw"/>
+                        <outlet property="altitude" destination="EjL-aE-gWr" id="UhX-MF-7gL"/>
+                        <outlet property="course" destination="bys-Z8-WSg" id="3yn-Gf-XXB"/>
+                        <outlet property="latitude" destination="rTZ-iv-m7G" id="ndI-DZ-yZn"/>
+                        <outlet property="longitude" destination="PVg-xW-adw" id="1ZU-FO-R3L"/>
+                        <outlet property="speed" destination="78F-5M-8Mf" id="hBi-Zr-7sa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
